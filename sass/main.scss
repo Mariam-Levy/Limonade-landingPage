@@ -1,0 +1,111 @@
+@import "./button";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Bebas Neue', cursive;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    border: 2px solid greenyellow;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 18px;
+    color: #424242;
+    margin-bottom: 35px;
+}
+
+.header {
+    background: linear-gradient(
+        180deg,
+        rgba(251, 205, 49, 1) 0%,
+        rgba(249, 196, 40, 1) 51%,
+        rgba(246, 179, 32, 1) 100%);
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    .menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .logo {
+            img {
+                width: 40px;
+            }
+        }
+        #menu {
+            display: none;
+        }
+        label {
+            cursor: pointer;
+            display: none;
+            .menu-icono {
+                width: 25px;
+            }
+        }
+        .navbar {
+            ul {
+                li {
+                    position: relative;
+                    float: left;
+                    a {
+                        font-size: 18px;
+                        padding: 48px;
+                        color: #3f3f3f;
+                        display: block;
+                        font-weight: bold;
+                        &:hover {
+                            color: #e06927;
+                        }
+                    }
+                }
+            }
+        }
+        .socials {
+            img {
+                width: 30px;
+                margin-right: 15px;
+            }
+        }
+    }
+
+    .header-content {
+        padding: 100px 0;
+        display: flex;
+        align-items: center;
+        .header-text {
+            width: 50%;
+            padding-right: 100px;
+            h1 {
+                font-size: 140px;
+                line-height: 150px;
+                color: #fff;
+                margin-bottom: 25px;
+            }
+        }
+        .heder-img {
+            width: 50%;
+            text-align: center;
+            img {
+                width: 550px;
+            }
+        }
+    }
+}
