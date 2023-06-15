@@ -195,4 +195,116 @@ h2 {
   rotate: 220deg;
 }
 
+.contact {
+  border: 2px solid red;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact .contact-table {
+  padding: 25px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 700px;
+  margin-top: -400px;
+}
+.contact .contact-table span {
+  font-size: 40px;
+  color: #aa7d5e;
+}
+.contact .contact-table h3 {
+  font-size: 60px;
+  color: #3f3f3f;
+  margin-bottom: 25px;
+}
+.contact .contact-table .ingredients {
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+}
+.contact .contact-table .ingredients td, .contact .contact-table .ingredients th {
+  border: 1px solid rgba(221, 221, 221, 0.8666666667);
+  padding: 8px;
+}
+.contact .contact-table .ingredients tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.contact .contact-table .ingredients tr:hover {
+  background-color: rgba(221, 221, 221, 0.8666666667);
+}
+.contact .contact-table .ingredients th {
+  padding: 12px 0;
+}
+.contact .form-content {
+  padding: 100px 0 70px 0;
+  text-align: center;
+}
+.contact .form-content h2 {
+  font-size: 50px;
+  color: #3f3f3f;
+  margin-bottom: 25px;
+}
+.contact .form-content form {
+  display: flex;
+}
+.contact .form-content form .campo {
+  padding: 17px 35px;
+  background-color: #f7f7f7;
+  border-radius: 25px;
+  margin-right: 15px;
+  border: 1px solid #e8e8e8;
+  outline: none;
+  color: #3f3f3f;
+}
+.contact .form-content form .campo::placeholder {
+  color: #a3a3a3;
+}
+
+.footer {
+  border-top: 2px solid #e8e8e8;
+  padding: 50px 0 0 0;
+}
+.footer .footer-links {
+  border: 3px solid greenyellow;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.footer .footer-links .link-img {
+  text-align: center;
+}
+.footer .footer-links .link-img img {
+  width: 70px;
+  margin-bottom: 10px;
+}
+.footer .footer-links .link-img .socials-2 a img {
+  width: 30px;
+  margin: 10px;
+}
+.footer .footer-links .link h3 {
+  font-size: 22px;
+  color: #3f3f3f;
+  margin-bottom: 15px;
+}
+.footer .footer-links .link a {
+  font-size: 18px;
+  display: block;
+  color: #3f3f3f;
+  margin-bottom: 20px;
+}
+.footer .footer-links .link a:hover {
+  color: #e06927;
+}
+.footer .footer-copy {
+  padding: 25px 0;
+  text-align: center;
+  border-top: 1px solid #e8e8e8;
+}
+.footer .footer-copy p {
+  color: #7c7c7c;
+  font-size: 16px;
+  margin: 0;
+}
+
 /*# sourceMappingURL=style.css.map */
