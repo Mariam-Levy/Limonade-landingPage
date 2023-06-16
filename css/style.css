@@ -153,7 +153,6 @@ p {
 }
 
 .container {
-  border: 2px solid greenyellow;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -307,7 +306,6 @@ h2 {
 }
 
 .contact {
-  border: 2px solid red;
   padding: 50px 0;
   display: flex;
   flex-direction: column;
@@ -377,7 +375,6 @@ h2 {
   padding: 50px 0 0 0;
 }
 .footer .footer-links {
-  border: 3px solid greenyellow;
   display: flex;
   justify-content: space-between;
   margin-bottom: 15px;
