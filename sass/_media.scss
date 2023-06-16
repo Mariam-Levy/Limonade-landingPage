@@ -1,0 +1,119 @@
+@media (max-width:991px) {
+    header {
+        min-height: 0vh;
+        .menu {
+            padding: 30px;
+            #menu:checked ~ .navbar {
+                display: initial;
+            }
+            label.active {
+                display: initial;
+                .menu-icono {
+                    display: block;
+                }
+            }
+            .navbar {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background-color: #3f3f3f;
+                display: none;
+                .ul__active {
+                    li {
+                        width: 100%;
+                        a {
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+            .socials {
+                display: none;
+            }
+        }
+        .header-content.header-media {
+            width: 100%; //
+            padding: 130px 30px 80px 30px;
+            flex-direction: column;
+            .header-text {
+                width: 100%;
+                padding-right: 0;
+                text-align: center;
+                margin-bottom: 15px;
+                h1 {
+                    font-size: 90px;
+                    line-height: 100px;
+                }
+                p {}
+                a {}
+            }
+            .header-img {
+                width: 100% !important;
+                img {
+                    width: 250px;
+                }
+            }
+        }
+    }
+
+    .about.about-media {
+        padding: 30px;
+        .about-content {
+            flex-direction: column;
+            .ab1, .ab2, .ab3 {
+                display: none;
+            }
+            .about-img {
+                width: 100%;
+                order: 2;
+                img {
+                    width: 250px;
+                }
+            }
+            .about-txt {
+                width: 100%;
+                text-align: center;
+                h2 {
+                    font-size: 70px;
+                    line-height: 80px;
+                }
+            }
+        }
+    }
+
+    .information.information-media {
+        padding: 30px 30px 100px 30px;
+        .in1, .in2, .in3 {
+            display: none;
+        }
+    }
+
+    .contact.contact-media {
+        padding: 30px;
+        .contact-table {
+            width: 100%;
+            margin-top: -120px;
+        }
+        .form-content {
+            padding: 30px;
+            form {
+                flex-direction: column;
+                .campo {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+
+    footer.footer-media {
+        padding: 30px 30px 0 30px;
+        .footer-links {
+            flex-direction: column;
+            text-align: center;
+            .link-img {
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
