@@ -8,7 +8,7 @@ HomePage para practicar
 
 
 ## Previsualización
-https://mariam-levy.github.io/landingPage-Limonade/
+
 
 ## Creditos ✒️
 Diseño realizado por (https://www.youtube.com/@divcode7383)
